@@ -1,4 +1,4 @@
-package main.java.executorService;
+package main.java._03_executorService;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -52,7 +52,7 @@ IMPORTANT NOTES:
 
 */
 
-public class SingleThreadExecutorDemo {
+public class _01_SingleThreadExecutorDemo {
     public static void main(String[] args) {
         // Create a single-threaded executor
         // This ensures that tasks are executed sequentially (one at a time) in the order they are submitted

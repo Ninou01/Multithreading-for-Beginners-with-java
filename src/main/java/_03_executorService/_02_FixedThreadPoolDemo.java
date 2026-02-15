@@ -1,4 +1,4 @@
-package main.java.executorService;
+package main.java._03_executorService;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -61,7 +61,7 @@ REAL-WORLD ANALOGY:
 
 */
 
-public class FixedThreadPoolDemo {
+public class _02_FixedThreadPoolDemo {
     public static void main(String[] args) {
         // Create a fixed thread pool with 3 threads
         // This allows up to 3 tasks to be executed concurrently

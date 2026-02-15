@@ -1,6 +1,6 @@
-package main.java.basicMultithreading;
+package main.java._01_basicMultithreading;
 
-public class SequantialDemoExecution {
+public class _05_SequantialDemoExecution {
     public static void main(String[] args) throws InterruptedException {
         Thread threadA = new ThreadA();
         Thread threadB = new ThreadB();

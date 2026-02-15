@@ -1,4 +1,4 @@
-package main.java.basicMultithreading;
+package main.java._01_basicMultithreading;
 
 /*
 ===============================================
@@ -32,7 +32,7 @@ COMMON MISTAKE:
 ✓ thread.start() → creates new thread
 */
 
-public class RunnableThreadExample {
+public class _01_RunnableThreadExample {
     public static void main(String[] args) {
         // Named class approach - good for reusable, complex logic
         Thread one = new Thread(new ThreadOne());

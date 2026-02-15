@@ -1,4 +1,4 @@
-package main.java.threadSynchronisation;
+package main.java._02_threadSynchronisation;
 
 /*
 ===============================================
@@ -51,7 +51,7 @@ KEY TAKEAWAY:
 - Reserve **method-level synchronized** for simple cases where all synchronized methods operate on the same shared resource.
 */
 
-public class LockWithCustomObject {
+public class _02_LockWithCustomObject {
     private static int count1 = 0;
     private static int count2 = 0;
 

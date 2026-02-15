@@ -1,4 +1,4 @@
-package main.java.basicMultithreading;
+package main.java._01_basicMultithreading;
 
 /*
 ===============================================
@@ -40,7 +40,7 @@ Think of it like express lanes at airport security:
 - Priority 1 = Standby (goes when there's room)
 */
 
-public class ThreadPriorityExample {
+public class _03_ThreadPriorityExample {
     public static void main(String[] args) {
         // Main thread starts with default priority 5
         System.out.println(Thread.currentThread().getName());      // "main"

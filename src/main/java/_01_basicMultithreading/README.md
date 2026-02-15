@@ -4,13 +4,13 @@ This folder contains examples and lessons on the fundamental concepts of multith
 
 ## Topics Covered
 
-1. **Thread Creation: Runnable vs Thread** (`RunnableThreadExample.java`)
+1. **Thread Creation: Runnable vs Thread** (`_01_RunnableThreadExample.java`)
    - Demonstrates the two ways to create threads in Java:
      - Implementing the `Runnable` interface (preferred approach).
      - Extending the `Thread` class.
    - Explains when to use each approach and their advantages/disadvantages.
 
-2. **Thread Join** (`JoinThreadExample.java`)
+2. **Thread Join** (`_02_JoinThreadExample.java`)
    - Explains the `join()` method, which allows one thread to wait for another to complete.
    - Covers different variants of `join()`:
      - `join()`
@@ -18,17 +18,17 @@ This folder contains examples and lessons on the fundamental concepts of multith
      - `join(long millis, int nanos)`
    - Use cases for ensuring thread execution order.
 
-3. **Thread Priority** (`ThreadPriorityExample.java`)
+3. **Thread Priority** (`_03_ThreadPriorityExample.java`)
    - Explains thread priorities in Java, ranging from `Thread.MIN_PRIORITY` (1) to `Thread.MAX_PRIORITY` (10).
    - Discusses how thread priorities are hints to the JVM and are not guaranteed.
    - Real-world analogy: Express lanes at airport security.
 
-4. **Daemon vs User Threads** (`DaemonUserThreadDemo.java`)
+4. **Daemon vs User Threads** (`_04_DaemonUserThreadDemo.java`)
    - Explains the difference between user threads (default) and daemon threads (background threads).
    - Highlights how the JVM terminates when only daemon threads remain.
    - Examples of daemon threads: Garbage Collector, monitoring tasks.
 
-5. **Sequential Execution** (`SequantialDemoExecution.java`)
+5. **Sequential Execution** (`_05_SequantialDemoExecution.java`)
    - Demonstrates how to ensure threads execute sequentially using synchronization or `join()`.
    - Explains why thread execution order is not guaranteed without proper coordination.
 

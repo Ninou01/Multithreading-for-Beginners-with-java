@@ -1,9 +1,9 @@
-package main.java.threadSynchronisation;
+package main.java._02_threadSynchronisation;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProducerConsumer {
+public class _03_ProducerConsumer {
     public static void main(String[] args) {
         Worker worker = new Worker(0, 5);
         

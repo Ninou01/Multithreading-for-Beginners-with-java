@@ -4,20 +4,20 @@ This folder contains lessons and examples on thread synchronization in Java. Eac
 
 ## Topics Covered
 
-1. **Synchronization Basics** (`SynchronisationDemo.java`)
+1. **Synchronization Basics** (`_01_SynchronisationDemo.java`)
    - What is `synchronized`?
    - Preventing race conditions.
    - Method-level vs block-level synchronization.
 
-2. **Fine-Grained Locks** (`LockWithCustomObject.java`)
+2. **Fine-Grained Locks** (`_02_LockWithCustomObject.java`)
    - Using custom lock objects.
    - Improving concurrency with block-level synchronization.
 
-3. **Producer-Consumer Problem** (`ProducerConsumer.java`)
+3. **Producer-Consumer Problem** (`_03_ProducerConsumer.java`)
    - Using `wait()` and `notify()` for thread communication.
    - Solving the producer-consumer problem.
 
-4. **Wait and Notify** (`WaitNotifyDemo.java`)
+4. **Wait and Notify** (`_04_WaitNotifyDemo.java`)
    - Understanding `wait()`, `notify()`, and `notifyAll()`.
    - When to use `notifyAll()` instead of `notify()`.
 

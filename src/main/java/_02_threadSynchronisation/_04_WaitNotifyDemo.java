@@ -1,4 +1,4 @@
-package main.java.threadSynchronisation;
+package main.java._02_threadSynchronisation;
 
 /*
 ===============================================
@@ -41,7 +41,7 @@ KEY TAKEAWAY:
 - Use `notifyAll()` when multiple threads are waiting, and you want to avoid potential deadlocks or missed signals.
 */
 
-public class WaitNotifyDemo {
+public class _04_WaitNotifyDemo {
     private static final Object LOCK = new Object();
 
     public static void main(String[] args) {

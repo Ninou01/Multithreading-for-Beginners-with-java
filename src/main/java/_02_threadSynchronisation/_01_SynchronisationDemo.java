@@ -1,4 +1,4 @@
-package main.java.threadSynchronisation;
+package main.java._02_threadSynchronisation;
 
 /*
 ===============================================
@@ -45,7 +45,7 @@ KEY TAKEAWAY:
 - It ensures that only one thread can execute the synchronized code at a time.
 */
 
-public class SynchronisationDemo {
+public class _01_SynchronisationDemo {
     public static int count = 0;
 
     public static synchronized  void increment() {

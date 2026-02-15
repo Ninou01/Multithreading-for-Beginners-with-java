@@ -1,4 +1,4 @@
-package main.java.basicMultithreading;
+package main.java._01_basicMultithreading;
 
 /*
 ===============================================
@@ -27,7 +27,7 @@ IMPORTANT: join() does NOT guarantee execution order of threads,
 it only guarantees that the calling thread waits for the target thread to finish!
 */
 
-public class JoinThreadExample {
+public class _02_JoinThreadExample {
     public static void main(String[] args) throws InterruptedException {
         
         // Thread 1: prints 5 numbers

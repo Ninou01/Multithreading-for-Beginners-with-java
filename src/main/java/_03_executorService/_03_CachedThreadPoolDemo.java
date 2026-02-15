@@ -1,4 +1,4 @@
-package main.java.executorService;
+package main.java._03_executorService;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -61,7 +61,7 @@ REAL-WORLD ANALOGY:
 
 */
 
-public class CachedThreadPoolDemo {
+public class _03_CachedThreadPoolDemo {
     public static void main(String[] args) {
         // Create a cached thread pool executor
         // This executor can create new threads as needed, and reuse previously constructed threads when available

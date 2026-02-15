@@ -1,4 +1,4 @@
-package main.java.basicMultithreading;
+package main.java._01_basicMultithreading;
 
 /*
 ===============================================
@@ -41,7 +41,7 @@ If only daemon threads remain → JVM exits immediately
 If any user thread exists → JVM continues running
 */
 
-public class DaemonUserThreadDemo {
+public class _04_DaemonUserThreadDemo {
     public static void main(String[] args) {
         // Create background daemon thread
         Thread bgThread = new Thread(new DaemonHelper());
